@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  java-course-rocketseat:
+    build: .
+    container_name: projeto-java
+    working_dir: /app
+    volumes:
+      - ./:/app
